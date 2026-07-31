@@ -22,17 +22,17 @@ function HubPage() {
   return (
     <div className="min-h-dvh bg-[#0c0c0e] font-[family-name:var(--font-dm)] text-neutral-100">
       <header className="border-b border-white/8">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-5 sm:px-6">
-          <div className="flex items-center gap-3">
-            <img
-              src="/images/mpm-logo.png"
-              alt="MPower Minds"
-              className="h-10 w-auto object-contain"
-            />
-            <div>
-              <p className="text-sm font-semibold tracking-tight">{CONTACT.brand}</p>
-              <p className="text-xs text-neutral-500">Landing variations studio</p>
-            </div>
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-center gap-2.5 px-4 py-6 sm:px-6">
+          <img
+            src="/images/mpm-logo.png"
+            alt="MPower Minds"
+            className="h-12 w-auto object-contain sm:h-14"
+          />
+          <div className="text-center">
+            <p className="text-base font-semibold tracking-tight sm:text-lg">
+              {CONTACT.brand}
+            </p>
+            <p className="mt-0.5 text-sm text-neutral-500">Landing variations studio</p>
           </div>
         </div>
       </header>
