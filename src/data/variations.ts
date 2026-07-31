@@ -17,7 +17,7 @@ export const VARIATIONS: VariationMeta[] = [
     name: "Heritage",
     mood: "Brand-true · Warm & energetic",
     pitch:
-      "A refined take on the original orange & teal identity : confident, conversion-focused, and unmistakably MPower Minds.",
+      "A refined take on the original orange & teal identity : confident, conversion focused, and unmistakably MPower Minds.",
     heroImage: "/images/hero-warm.jpg",
     aboutImage: "/images/about-mentor.jpg",
     accent: "#ea580c",
