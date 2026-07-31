@@ -26,7 +26,7 @@ export function StudioLanding() {
       <nav className="border-b border-neutral-200/80 bg-white/80 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
           <a href="#top" className="flex items-center gap-2.5">
-            <img src="/images/mpm-logo.png" alt="MPower Minds" className="h-8 w-auto" />
+            <img src="/images/mpm-logo.png" alt="MPower Minds" className="h-10 w-auto object-contain" />
             <span className="font-[family-name:var(--font-syne)] text-base font-semibold tracking-tight">
               {CONTACT.brand}
             </span>

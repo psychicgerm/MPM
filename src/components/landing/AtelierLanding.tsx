@@ -28,7 +28,7 @@ export function AtelierLanding() {
       <nav className="border-b border-stone-200/70 bg-[#faf6f0]/80 backdrop-blur-sm">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
           <a href="#top" className="flex items-center gap-2.5">
-            <img src="/images/mpm-logo.png" alt="MPower Minds" className="h-10 w-auto" />
+            <img src="/images/mpm-logo.png" alt="MPower Minds" className="h-10 w-auto object-contain" />
             <div className="leading-tight">
               <p className="font-[family-name:var(--font-fraunces)] text-lg font-semibold text-stone-900">
                 {CONTACT.brand}

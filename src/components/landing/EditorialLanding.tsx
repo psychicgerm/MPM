@@ -30,7 +30,7 @@ export function EditorialLanding() {
             <img
               src="/images/mpm-logo.png"
               alt="MPower Minds"
-              className="h-9 w-auto brightness-0 invert opacity-90"
+              className="h-10 w-auto object-contain"
             />
             <div>
               <p className="font-[family-name:var(--font-libre)] text-base font-bold tracking-tight text-white">

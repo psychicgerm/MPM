@@ -40,7 +40,7 @@ export function HeritageLanding() {
       <nav className="sticky top-[52px] z-50 border-b border-stone-100 bg-white/95 backdrop-blur-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
           <a href="#top" className="flex items-center gap-2.5">
-            <img src="/images/mpm-logo.png" alt="MPower Minds" className="h-10 w-auto" />
+            <img src="/images/mpm-logo.png" alt="MPower Minds" className="h-10 w-auto object-contain" />
             <span className="hidden font-[family-name:var(--font-playfair)] text-lg font-semibold text-stone-900 sm:inline">
               {CONTACT.brand}
             </span>

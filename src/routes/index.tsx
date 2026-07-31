@@ -27,7 +27,7 @@ function HubPage() {
             <img
               src="/images/mpm-logo.png"
               alt="MPower Minds"
-              className="h-9 w-auto brightness-0 invert"
+              className="h-10 w-auto object-contain"
             />
             <div>
               <p className="text-sm font-semibold tracking-tight">{CONTACT.brand}</p>
