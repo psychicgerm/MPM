@@ -102,55 +102,7 @@ function HubPage() {
           ))}
         </div>
 
-        <aside className="mt-14 rounded-2xl border border-white/8 bg-white/[0.02] p-6 sm:p-8">
-          <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
-            <div className="max-w-xl">
-              <div className="mb-3 flex size-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-teal-400">
-                <FolderGit2 className="size-5" />
-              </div>
-              <h3 className="font-[family-name:var(--font-syne)] text-lg font-semibold">
-                GitHub-ready codebase
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-400">
-                Full source for this multi-variation site (React + TanStack Start + Tailwind).
-                Push it to{" "}
-                <span className="text-neutral-300">psychicgerm/mpowerminds</span> or a new
-                repo. Includes README, LICENSE, all four variations, assets, and Vercel notes.
-              </p>
-              <ul className="mt-4 space-y-1.5 text-sm text-neutral-500">
-                <li>
-                  <code className="text-neutral-400">npm install && npm run dev</code>
-                </li>
-                <li>
-                  Edit copy in <code className="text-neutral-400">src/data/content.ts</code>
-                </li>
-                <li>
-                  Designs in <code className="text-neutral-400">src/components/landing/</code>
-                </li>
-              </ul>
-              <p className="mt-4 text-xs leading-relaxed text-neutral-600">
-                If the preview blocks downloads, use{" "}
-                <strong className="font-medium text-neutral-400">“Or open zip in a new tab”</strong>{" "}
-                below, then Save As from your browser.
-              </p>
-            </div>
-            <DownloadCodeButton variant="primary" label="Download .zip" shortLabel="Download" />
-          </div>
-        </aside>
-
-        <aside className="mt-5 rounded-2xl border border-white/8 bg-white/[0.02] p-6 sm:p-8">
-          <h3 className="font-[family-name:var(--font-syne)] text-lg font-semibold">
-            What stayed the same
-          </h3>
-          <ul className="mt-4 grid gap-2 text-sm text-neutral-400 sm:grid-cols-2">
-            <li>Educator: {CONTACT.educator}</li>
-            <li>WhatsApp: wa.link/vjpkqc</li>
-            <li>Phone: {CONTACT.phone}</li>
-            <li>Email: {CONTACT.email}</li>
-            <li>Subjects: Maths · Science · French & English</li>
-            <li>Focus: small batches, 15+ years, IGCSE French</li>
-          </ul>
-        </aside>
+        
       </main>
 
       <footer className="border-t border-white/8 py-8 text-center text-xs text-neutral-600">
