@@ -23,7 +23,7 @@ import { WhatsAppFab, WhatsAppIcon } from "./WhatsAppFab";
 export function AtelierLanding() {
   return (
     <div className="atelier-paper min-h-dvh font-[family-name:var(--font-nunito)] text-stone-800">
-      <VariationBar current="atelier" />
+      <VariationBar current="kindred" />
 
       <nav className="border-b border-stone-200/70 bg-[#faf6f0]/80 backdrop-blur-sm">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 sm:px-6">

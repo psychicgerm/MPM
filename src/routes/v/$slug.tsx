@@ -45,7 +45,7 @@ function VariationPage() {
       return <HeritageLanding />;
     case "editorial":
       return <EditorialLanding />;
-    case "atelier":
+    case "kindred":
       return <AtelierLanding />;
     case "studio":
       return <StudioLanding />;

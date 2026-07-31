@@ -1,4 +1,4 @@
-export type VariationSlug = "heritage" | "editorial" | "atelier" | "studio";
+export type VariationSlug = "heritage" | "editorial" | "kindred" | "studio";
 
 export type VariationMeta = {
   slug: VariationSlug;
@@ -35,11 +35,11 @@ export const VARIATIONS: VariationMeta[] = [
     surface: "#0b1220",
   },
   {
-    slug: "atelier",
-    name: "Atelier",
-    mood: "Warm trust · Parent-first",
+    slug: "kindred",
+    name: "Kindred",
+    mood: "Warm trust · Family-first",
     pitch:
-      "Soft cream and forest tones that feel like a calm study at home : designed for parents seeking safety and results.",
+      "Soft cream and forest tones with a quiet, elevated calm — crafted for families who value care, trust, and lasting results.",
     heroImage: "/images/hero-french.jpg",
     aboutImage: "/images/about-mentor.jpg",
     accent: "#3f6212",
