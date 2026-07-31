@@ -39,7 +39,7 @@ export const VARIATIONS: VariationMeta[] = [
     name: "Kindred",
     mood: "Warm trust · Family-first",
     pitch:
-      "Soft cream and forest tones with a quiet, elevated calm — crafted for families who value care, trust, and lasting results.",
+      "Soft cream and forest tones with a quiet, elevated calm : crafted for families who value care, trust, and lasting results.",
     heroImage: "/images/hero-french.jpg",
     aboutImage: "/images/about-mentor.jpg",
     accent: "#3f6212",
