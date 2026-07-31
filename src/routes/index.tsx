@@ -34,18 +34,6 @@ function HubPage() {
               <p className="text-xs text-neutral-500">Landing variations studio</p>
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <DownloadCodeButton variant="header" label="Download code" shortLabel="Code" />
-            <a
-              href="https://github.com/psychicgerm/mpowerminds"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex h-9 items-center gap-1.5 rounded-full border border-white/10 px-3.5 text-xs font-medium text-neutral-400 transition-colors hover:border-white/20 hover:text-white"
-            >
-              GitHub
-              <ExternalLink className="size-3" />
-            </a>
-          </div>
         </div>
       </header>
 
