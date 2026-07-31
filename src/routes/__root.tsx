@@ -5,6 +5,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
+import { Analytics } from "@vercel/analytics/react";
 import appCss from "@/styles.css?url";
 
 const fontHref =
@@ -51,6 +52,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
       <body className="min-h-dvh antialiased">
         {children}
         <Scripts />
+        <Analytics />
       </body>
     </html>
   );
