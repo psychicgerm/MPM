@@ -35,7 +35,7 @@ Every variation keeps the same:
 | --- | --- |
 | ![Gallery](docs/previews/hub.png) | ![Heritage](docs/previews/heritage.png) |
 
-| Editorial | Atelier |
+| Editorial | Kindred |
 | --- | --- |
 | ![Editorial](docs/previews/editorial.png) | ![Atelier](docs/previews/atelier.png) |
 
