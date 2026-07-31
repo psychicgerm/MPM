@@ -48,7 +48,7 @@ function HubPage() {
             <span className="text-neutral-400">{CONTACT.brand}</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed text-neutral-400 sm:text-lg">
-            Based on your original landing page for live online coaching —
+            Based on the original landing page for live online coaching —
             Maths, Science, French & English across international and Indian
             curricula. Each variation keeps the same content and WhatsApp conversion
             path, with a completely different visual language.
