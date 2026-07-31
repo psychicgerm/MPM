@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+.output/
+.vercel/
+.nitro/
+.tanstack/
+.vinxi/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+/tmp/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Agent / local only
+.grok/
+artifacts/
+screenshots/
+.node_modules.lock
+AGENTS.md
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+public/mpowerminds-codebase.zip

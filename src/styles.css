@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --font-dm: "DM Sans", system-ui, sans-serif;
+  --font-playfair: "Playfair Display", Georgia, serif;
+  --font-libre: "Libre Baskerville", Georgia, serif;
+  --font-source: "Source Sans 3", system-ui, sans-serif;
+  --font-fraunces: "Fraunces", Georgia, serif;
+  --font-nunito: "Nunito Sans", system-ui, sans-serif;
+  --font-syne: "Syne", system-ui, sans-serif;
+  --font-instrument: "Instrument Serif", Georgia, serif;
+
+  --color-ink: #141414;
+  --color-paper: #fafafa;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 1.75rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.heritage-hero {
+  background: linear-gradient(145deg, #ea580c 0%, #0d9488 100%);
+}
+
+.heritage-cta {
+  background: linear-gradient(90deg, #ea580c 0%, #0f766e 100%);
+}
+
+.editorial-hero {
+  background:
+    radial-gradient(ellipse 80% 60% at 70% 20%, rgba(15, 118, 110, 0.18), transparent 55%),
+    linear-gradient(180deg, #0b1220 0%, #111827 100%);
+}
+
+.atelier-paper {
+  background-color: #faf6f0;
+  background-image:
+    radial-gradient(ellipse 70% 50% at 100% 0%, rgba(63, 98, 18, 0.06), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 0% 100%, rgba(180, 83, 9, 0.05), transparent 45%);
+}
+
+.studio-grid {
+  background-color: #fafafa;
+  background-image:
+    linear-gradient(to right, rgba(13, 148, 136, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(13, 148, 136, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
